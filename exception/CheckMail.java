@@ -5,7 +5,7 @@ public class CheckMail {
 		String mail="kk@mail.com";
 		try {
 			if(mail.endsWith("@gmail.com")||mail.endsWith("@yahoo.com")) {
-				System.out.println("It is a Mail");
+				System.out.println("It is a new my personal Mail");
 			}
 			else {
 				throw new MailNotFoundException("Not a Mail");
